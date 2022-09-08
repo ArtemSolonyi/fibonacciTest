@@ -1,9 +1,8 @@
 import {inject, injectable} from "inversify";
 import express, {Request, Response} from "express";
-import {validator} from "../validations/validate.middleware";
-import {UserDto, UserLoginDto} from "../dto/user.dto";
+
 import {TYPES} from "../types";
-import {AuthService} from "../services/auth.service";
+
 import {FibonacciService} from "../services/fibonacci.service";
 import {FibonacciDto, TicketDto} from "../dto/fibonacci.dto";
 
